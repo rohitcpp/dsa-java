@@ -19,3 +19,6 @@ class Solution {
         return maxLen;
     }
 }
+
+//input = a b c a b c b b, output= 3, ans is abc length 3
+//        0 1 2 3 4 5 6 7   (Indexes for each iteration)
