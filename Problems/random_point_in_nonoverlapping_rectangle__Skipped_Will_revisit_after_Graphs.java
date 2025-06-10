@@ -40,8 +40,9 @@ public class Solution {
         int x2 = rect[2], y2 = rect[3];
         
         int width = x2 - x1 + 1;
+        int height= y2-y1+1;
         int randomX = x1 + random.nextInt(width);
-        int randomY = y1 + random.nextInt(width);
+        int randomY = y1 + random.nextInt(height);
 
         return new int[]{randomX, randomY};
     }
