@@ -1,4 +1,4 @@
-public int[] productExceptSelf(int[] nums) {
+//public int[] productExceptSelf(int[] nums) {
     int n = nums.length;
     int[] answer = new int[n];
 

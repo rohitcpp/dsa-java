@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Solution {
+//public class Solution {
     private int[][] rectangles;
     private int[] areaSums;
     private Random random;

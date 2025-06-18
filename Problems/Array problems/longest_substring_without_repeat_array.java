@@ -1,4 +1,4 @@
-class Solution {
+//class Solution {
     public int lengthOfLongestSubstring(String s) {
         int[] lastSeen = new int[128]; // ASCII characters
         int start = 0;

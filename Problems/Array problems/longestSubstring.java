@@ -1,4 +1,4 @@
-public class Solution {
+public class longestSubstring {
     public int longestSubstring(String s, int k) {
         // Base case: if the string length is less than k, return 0
         if (s.length() < k) return 0;

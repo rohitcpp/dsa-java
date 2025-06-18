@@ -1,4 +1,4 @@
-class Solution {
+//class Solution {
     public int minSubArrayLen(int target, int[] nums) {
         int n = nums.length;
         int minLen = Integer.MAX_VALUE;
